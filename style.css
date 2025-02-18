@@ -1,0 +1,91 @@
+body {
+    background-color: #001a33;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.h20 {
+    max-width: 800px;
+    margin-left: -50px;
+    margin-top: -1900000px;
+    flex: 2;
+    background-color: rgba(255, 255, 255, 0.85);
+    border: 2px solid #333;
+    padding: 20px;
+    line-height: 1.5;
+    color: #000;
+    display: inline-block;
+    height: 300px;
+}
+
+.NaSo4 {
+    max-width: 150px;
+    margin-left: 1050px;
+    margin-top: -81000px;     
+    flex: 2;
+    background-color: rgba(255, 255, 255, 0.85);
+    border: 2px solid #333;
+    padding: 20px;
+    line-height: 1.5;
+    color: #000; 
+    display: inline-block;
+    height: 300px;
+}
+
+img {
+    margin-left: -90px;
+    width: 150px;
+    height: 150px;
+    margin-top: 1000px;
+    display: inline-block;
+    margin: auto;
+}
+
+.container {
+    background-color: #112244;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 1300px;
+    margin: auto;
+}
+
+input {
+    display: none;
+}
+
+label {
+    background: #223355;
+    padding: 10px 15px;
+    cursor: pointer;
+    border: 1px solid #445577;
+    border-radius: 5px;
+    margin: 25px;
+    display: inline-block;
+}
+
+label:hover {
+    background: #335588;
+}
+
+.content {
+    display: none;
+    background-color: #ddd;
+    color: black;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+
+
+/* Показываем контент при выборе вкладки */
+#mercury:checked ~ #mercury-content,
+#venus:checked ~ #venus-content,
+#mars:checked ~ #mars-content,
+#jupiter:checked ~ #jupiter-content,
+#saturn:checked ~ #saturn-content,
+#uranus:checked ~ #uranus-content,
+#neptune:checked ~ #neptune-content {
+    display: block;
+}
