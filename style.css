@@ -5,6 +5,19 @@ body {
     text-align: center;
 }
 
+h2 {
+    background-color: #6e6e6e;
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+    margin-right: 700px;
+    padding-top: 50px;
+}
+
+.bikkini-bottom {
+    padding-top: ;
+}
+
 .h20 {
     max-width: 800px;
     margin-left: -50px;
@@ -22,7 +35,7 @@ body {
 .NaSo4 {
     max-width: 150px;
     margin-left: 1050px;
-    margin-top: -81000px;     
+    margin-top: -8100000000000000000000000px;     
     flex: 2;
     background-color: rgba(255, 255, 255, 0.85);
     border: 2px solid #333;
@@ -34,12 +47,22 @@ body {
 }
 
 img {
-    margin-left: -90px;
     width: 150px;
     height: 150px;
     margin-top: 1000px;
     display: inline-block;
     margin: auto;
+
+}
+
+.img {
+    padding-right: 1200px;
+
+}
+
+.CaSo4 {
+    margin-top: -250px;
+    padding-right: 1200px;
 }
 
 .container {
